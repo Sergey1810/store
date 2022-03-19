@@ -1,0 +1,19 @@
+.CartBlock{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.Cart_icons{
+    cursor: pointer;
+    position: relative;
+    size: 25px;
+    font-size: 30px;
+}
+
+.Cart_price{
+    margin-left: 15px;
+    font-style: 18px;
+    font-weight: bold;
+}

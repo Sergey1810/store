@@ -1,0 +1,22 @@
+.header{
+    color: aliceblue;
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+}
+.header__store_title{
+color: white;
+text-decoration: none;
+font-style: 24px;
+font-weight: bold;
+}
+
+.header_cart_btn{
+ justify-content: flex-end;
+}
