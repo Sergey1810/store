@@ -32,7 +32,7 @@
     font-size: 14px;
 }
 .game_item_btn{
-    position: relative;
+    position: absolute;
     right: 0;
     bottom: -12px;
 }

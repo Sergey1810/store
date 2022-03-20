@@ -1,7 +1,8 @@
 import React from 'react'
 import {GameCover} from '../GameCover/GameCover'
 import {GameBuy} from '../GameBuy/GameBuy'
-import cl from './gameitem.module.css'
+import {GameGenre} from '../GameGenre/GameGenre'
+import cl from './GameItem.module.css'
 
 export const GameItem = ({game}) => {
   return (
@@ -10,7 +11,7 @@ export const GameItem = ({game}) => {
       <div className={cl.game_item_details}>
           <span className={cl.game_item_title}>{game.title}</span>
           <div className={cl.game_item_genre}>
-              {game.genres.map(genre=>genre)}
+              {game.genres.map(genre=><GameGenre genre={genre} key={genre}/>)}
           </div>
           <div className={cl.game_item_btn}>
               <GameBuy game={game}/>

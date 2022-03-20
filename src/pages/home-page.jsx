@@ -5,7 +5,7 @@ import cl from './home.module.css'
 
 
 
-export const HomePage=()=> {
+export const HomePage =()=> {
   return (
     <div className={cl.home_page}>
         {GAMES.map(game=><GameItem game={game} key={game.id}/>)}
