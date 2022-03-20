@@ -11,8 +11,8 @@
 .btn--primary{
     background-color: #0055ff;
 }
-.btn-secondary{
-    background-color: #333231;
+.btn--secondary{
+    background-color: #3d3f3d;
 }
 .btn--small {
     font-size: 14px;
