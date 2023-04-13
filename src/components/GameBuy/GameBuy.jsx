@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { deleteItemFromCart, setItemInCart } from '../../redux/cart/reducer'
 import {Button} from '../Button/Button'
-import cl from './GameBuy.module.css'
+import cl from './gameBuy.module.css'
 
 export const GameBuy = ({game}) => {
     const dispatch = useDispatch();

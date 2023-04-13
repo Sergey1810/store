@@ -5,7 +5,7 @@ import {GameCover} from '../GameCover/GameCover'
 import {GameBuy} from '../GameBuy/GameBuy'
 import {GameGenre} from '../GameGenre/GameGenre'
 import { setCurrentGame } from '../../redux/games/reducer'
-import cl from './GameItem.module.css'
+import cl from './gameItem.module.css'
 
 
 export const GameItem = ({game}) => {
